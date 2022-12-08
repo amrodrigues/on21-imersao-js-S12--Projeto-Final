@@ -1,9 +1,9 @@
-const { registerMessage } = require('./helpers');
-const{ Carro , CarroAplicativo} = require('./carro');
-const {Estacionamento} = require('./estacionamento');
-const {Vagas} = require('./vagas');
-const register = require('./register');
-const {CarroVaga} = require('./carroVaga');
+const { registerMessage } = require('./Helpers');
+const{ Carro , CarroAplicativo} = require('./Carro/Carro');
+const {Estacionamento} = require('./Estacionamento/Estacionamento');
+const {Vagas} = require('./Vagas/Vagas');
+const register = require('./Registro');
+const {CarroVaga} = require('./CarroVaga/CarroVaga');
 
 registerMessage('initialTime', '');
 

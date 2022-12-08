@@ -1,6 +1,6 @@
-const { CarroVaga } = require('./carroVaga');
-const { Carro, CarroAplicativo } = require('./carro');
-const { Vagas } = require('./vagas');
+const { CarroVaga } = require('./CarroVaga');
+const { Carro, CarroAplicativo } = require('../Carro/Carro');
+const { Vagas } = require('../Vagas/Vagas');
 
 
 describe("Validar a Classe CarroVaga ", () => {

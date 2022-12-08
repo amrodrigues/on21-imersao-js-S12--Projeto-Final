@@ -1,4 +1,4 @@
-const { registerMessage } = require('./helpers');
+const { registerMessage } = require('../Helpers');
 
 
 class Estacionamento{

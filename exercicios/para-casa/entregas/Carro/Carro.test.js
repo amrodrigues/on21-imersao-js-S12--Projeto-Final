@@ -1,4 +1,4 @@
-const { Carro, CarroAplicativo } = require('./carro')
+const { Carro, CarroAplicativo } = require('./Carro')
 
 
 describe("Validações para a Classe Carro", () => {

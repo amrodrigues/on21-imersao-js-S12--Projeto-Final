@@ -1,4 +1,4 @@
-const {Vagas} = require('./vagas')
+const {Vagas} = require('./Vagas')
 
 
 describe ("Validar a Classe Vaga " , () =>{

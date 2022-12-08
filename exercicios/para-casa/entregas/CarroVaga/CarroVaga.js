@@ -1,6 +1,6 @@
-const { registerMessage } = require('./helpers');
-const { CarroAplicativo } = require('./carro');
-const { Vagas } = require('./vagas');
+const { CarroAplicativo } = require('../Carro/Carro');
+const { Vagas } = require('../Vagas/Vagas');
+const { registerMessage } = require('../Helpers');
 
 class CarroVaga {
     constructor(vaga, carroAplicativo) {

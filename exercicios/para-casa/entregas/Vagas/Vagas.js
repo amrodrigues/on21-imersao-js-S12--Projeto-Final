@@ -1,4 +1,4 @@
-const { registerMessage } = require('./helpers');
+const { registerMessage } = require('../Helpers');
 
 class Vagas{
     constructor(vagas ,vagaAplicativo, vagaBloqueada){
@@ -32,7 +32,7 @@ class Vagas{
         return this.vagaAplicativo = qtdVaga; }
     }
     validaVagaAplicativo(){
-        if (this.vagaAplicativo != 0){
+                                                                                                                                                                                                                                                                                                                if (this.vagaAplicativo != 0){
             return 'S'
         }
         else
