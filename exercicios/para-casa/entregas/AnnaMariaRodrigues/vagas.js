@@ -1,27 +1,38 @@
 const { registerMessage } = require('./helpers');
 
 class Vagas{
-    constructor(vagas ,vagasaplicativo, vagasbloqueadas, vagasdeficiente){
+    constructor(vagas ,vagaAplicativo, vagaBloqueada){
         this.vagas = vagas;
-       this.vagasaplicativo = vagasaplicativo;
-       this.vagasbloqueadas = vagasbloqueadas;
-       this.vagasdeficiente = vagasdeficiente;
+       this.vagaAplicativo = vagaAplicativo;
+       this.vagaBloqueada = vagaBloqueada;
 
-      
+       registerMessage('qtdVaga', ` A quantidade de vagas para Aplicativo é ${this.vagaAplicativo}`)
+       
     }
 
    
     updateVagaAplicativo()
     {
-       return this.vagasaplicativo-- ;
+        if (this.vagaAplicativo != 0){
+          return this.vagaAplicativo-- ;
+    }
+    else
+    {
+        registerMessage('qtdVaga', ` Não há vagas disponível para o carro de Aplicativo`)
+    
+         return 'N'}
     }
 
-    addVagaAplicativo(qtdevaga)
+    addVagaAplicativo(qtdVaga)
     {
-        return this.vagasaplicativo = qtdevaga;
+        if (typeof qtdVaga === 'string' || typeof qtdVaga === 'boolean') {
+            throw new Error("O campo quantidade não é numérico");
+          }
+          else{
+        return this.vagaAplicativo = qtdVaga; }
     }
     validaVagaAplicativo(){
-        if (this.vagasaplicativo != 0){
+        if (this.vagaAplicativo != 0){
             return 'S'
         }
         else

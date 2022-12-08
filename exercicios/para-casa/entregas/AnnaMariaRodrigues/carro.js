@@ -27,7 +27,7 @@ class CarroAplicativo extends Carro {
     validaCarroAplicativo(carroAplicativo) {
         if ((carroAplicativo.tela) != undefined){
         if (carroAplicativo instanceof CarroAplicativo) {
-            registerMessage('carroaplicativo', `o Carro ${carroAplicativo.placa} é um carro de aplicativo`);
+            registerMessage('carroAplicativo', `o Carro ${carroAplicativo.placa} é um carro de aplicativo`);
         
             return 'S';
         }

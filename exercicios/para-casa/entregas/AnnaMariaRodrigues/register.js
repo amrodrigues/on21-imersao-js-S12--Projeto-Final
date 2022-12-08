@@ -1,8 +1,8 @@
 const register = {
 	initialTime: [],
 	estacionamento: [],
-	carroaplicativo: [],
-    qtdevaga: [],
+	carroAplicativo: [],
+    qtdVaga: [],
 	vaga: [],
     carro:[],
    finalTime: []
