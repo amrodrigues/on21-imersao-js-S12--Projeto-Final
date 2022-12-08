@@ -49,5 +49,5 @@ vagasBloqueadas : que delimita a quantidade de vagas que estão bloqueadas.
 - O carro de aplicativo ficar mais de 15 minutos na vaga é multado, pois está usando a vaga de má fé.
 - o carro de aplicativo não pode voltar para o estacionamento rotativo em menos de 30 min.
  - colocar em Inglês.
-- exporta a lista para os aplicativos de carros, para mostar os carros que agiram de má fé e contemplar com pontos os carros que prestam o serviço.
+- exporta a lista para os aplicativos de carros, para mostrar os carros que agiram de má fé e contemplar com pontos os carros que prestam o serviço.
 
