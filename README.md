@@ -1,7 +1,7 @@
 <h1 align="center">Estacionamento Exclusivo</h1>
 
 <div align="center">
-  <img width="300" height="300" src="img/estacionamento.png" alt="logo estacionamento exclusivo"/>
+  <img width="300" height="300" src="exercicios/para-casa/entregas/img/estacionamento.png" alt="logo estacionamento exclusivo"/>
 </div>
 
 # Proposta
