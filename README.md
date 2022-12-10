@@ -5,7 +5,7 @@
 </div>
 
 # Proposta
-Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezembro 202 | Autora: [Anna Maria Rodrigues](https://github.com/amrodrigues)
+Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezembro 2022 | Autora: [Anna Maria Rodrigues](https://github.com/amrodrigues)
 
 ## Estacionamento
 
