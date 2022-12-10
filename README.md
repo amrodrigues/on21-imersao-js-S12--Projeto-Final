@@ -17,9 +17,7 @@ Desenvolver uma aplicação para gerenciar Carros de aplicativos que vão buscar
 
 
 #### Resumo
-Ao acompanhar meu pai nas compras do mês tive muita dificuldade de conseguir um carro de aplicativo, pois não tinha vaga no estacionamento. Devido a lotação os carros de aplicativos estavam proibidos de buscar os passageiros, pois não havia um local determinado para pausas rápidas, para realizar o embarque.
-Devido a esse infortúnio, desenvolvi uma aplicação para gerenciar o fluxo de carros de aplicativo,com vagas exclusivas para embarque e desembarque de passageiros com tempo limite de 15 min.
-
+Ao acompanhar meu pai nas compras do mês tive muita dificuldade de conseguir um carro de aplicativo, pois não tinha vaga no estacionamento. Devido a lotação os carros de aplicativos estavam proibidos de buscar os passageiros, por não haver um local destinado à para pausas rápidas para realização do embarque. Em vista desse infortúnio, desenvolvi uma aplicação para gerenciar o fluxo de carros de aplicativo em estacionamentos,com vagas exclusivas para embarque e desembarque de passageiros com tempo limite de 15 min.
 
 
 
